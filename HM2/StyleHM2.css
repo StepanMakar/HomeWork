@@ -1,0 +1,25 @@
+p.target {
+    background: #57da78;
+    color: #000000
+}
+
+h2.point {
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.target2 {
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: green
+}
+a:hover{
+    color: red
+}
+img{
+    width: 220px;
+    height: 300px;
+}
