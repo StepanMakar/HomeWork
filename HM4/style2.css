@@ -1,0 +1,49 @@
+.daddy
+{
+    width: 700px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+.bord{
+    border: 2px solid black;
+}
+.text-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #da0404;
+}
+.head{
+    background: #a1ecec;
+    height: 150px;
+    margin-bottom: 5px;border:
+}
+.midle {
+    height: 250px;
+    display: flex;
+    column-gap: 5px;
+}
+.a {
+    background: #a1ecec;
+    flex-grow: 1;
+}
+.b {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    row-gap: 5px;
+
+}
+.b1 {
+    background: #a1ecec;
+    height: 50%;
+}
+
+.leg {
+    background: #a1ecec;
+    height: 100px;
+    margin-top: 5px ;
+}
