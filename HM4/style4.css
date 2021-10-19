@@ -1,0 +1,37 @@
+.daddy {
+    width: 700px;
+    background: #b5c7c7;
+    margin: 0 auto;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.title1  {
+    height: 150px;
+    margin-bottom: 10px;
+    background: #19086e;
+}
+.main {
+    height: 250px;
+    display: flex;
+    column-gap: 10px;
+    margin-bottom: 10px;
+}
+.a1 {
+    background: #0f5da6;
+    flex-grow: 2;
+}
+.a2 {
+    background: #6279b7;
+    flex-grow:  1;
+}
+.title {
+    height: 150px;
+    background: #574c94;
+}
+.text-flex {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 25px;
+    color: #ffffff;
+}
