@@ -1,0 +1,39 @@
+.daddy {
+    width: 800px;
+    margin: 0 auto;
+    border: 5px black;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.up {
+    height: 150px;
+    background: #a1ecec;
+    margin-bottom: 5px;
+}
+.middle {
+    height: 200px;
+    display: flex;
+    column-gap: 5px;
+    margin-bottom: 5px;
+}
+.m1 {
+    background: #0e6060;
+    flex-grow: 1;
+}
+.down {
+    height: 250px;
+    background: #a1ecec;
+}
+.text-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #da0404;
+}
+
+
+
+
+
+
