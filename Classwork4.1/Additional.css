@@ -1,0 +1,134 @@
+ :root {
+     --blue: #040854;
+     --grey: #9f9b9b;
+     --aqua: #06c5c5
+ }
+ * {
+     margin: 0;
+     padding: 0;
+ }
+ .wrapper {
+     margin: 0 auto;
+     padding: 0 50px;
+     max-width: 1200px;
+ }
+ .social_head {
+     height: 35px;
+     display: flex;
+     align-items: center;
+     justify-content: flex-end;
+     column-gap: 5px;
+ }
+ .social__head_greed {
+     background-color: var(--aqua) ;
+ }
+ .social_items {
+     width: 30px;
+     height: 10px;
+     background-color: var(--blue);
+
+}
+ .header__top {
+     background: var(--grey);
+     padding: 10px 0 15px;
+ }
+ .header__top_greed {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+ .header__logo {
+     background: var(--blue);
+     width: 70px;
+     height: 25px;
+     border-radius: 10px;
+ }
+.nav__item {
+    display: inline-block;
+    margin-left: 10px;
+
+}
+.nav__item a {
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: color .5s;
+    color: var(--blue);
+}
+.nav__item a:hover {
+    color: #57da78;
+}
+.TextHeader__top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+    padding: 50px 0 ;
+}
+.text {
+    width: 70%;
+    text-align: center;
+}
+ .TextHeader__top button{
+     width: 300px;
+     margin-top: 25px;
+     border-radius: 20px;
+     color: var(--aqua);
+     background-color: var(--blue);
+     height: 30px;
+     cursor: pointer;
+ }
+ .main{
+     background-color: var(--grey);
+     padding: 50px;
+ }
+ .contain{
+     display: flex;
+     flex-direction: column;
+     row-gap: 20px;
+     padding: 40px 40px;
+ }
+ .contetn_title{
+     display: flex;
+     column-gap: 25px;
+     justify-content: center;
+     align-items: center;
+
+ }
+ .left_text {
+     background-color: var(--blue);
+     height: 20px;
+     width: 60px;
+     border-radius: 30px;
+ }
+ .right_text{
+     background-color: var(--blue);
+     height: 20px;
+     width: 150px;
+     border-radius: 40px;
+
+ }
+ .contain__main{
+     display: flex;
+     column-gap: 50px;
+ }
+
+ .content__img{
+     height: 150px;
+     background-color: var(--blue);
+     border-radius: 20px;
+     flex-grow: 1;
+ }
+ .border{
+     border: 5px solid black;
+     padding: 50px;
+ }
+.contein_item p{
+    text-align: center;
+    margin-top: 20px;
+}
+.contain__greed{
+    border: 5px solid var(--aqua);
+    border-radius: 20px;
+}
