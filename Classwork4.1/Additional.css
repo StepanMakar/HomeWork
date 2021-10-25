@@ -81,7 +81,7 @@
  }
  .main{
      background-color: var(--grey);
-     padding: 50px;
+     padding: 20px 60px 20px;
  }
  .contain{
      display: flex;
@@ -131,4 +131,115 @@
 .contain__greed{
     border: 5px solid var(--aqua);
     border-radius: 20px;
+}
+.about{background-color: var(--blue);
+padding: 50px 0;
+}
+.about__greed{
+    display: flex;
+    justify-content: space-between;
+}
+.about__card{
+    width: 30%;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    color: lemonchiffon;
+    transition: all 1s;
+    padding: 10px 0;
+}
+.about__photo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: var(--grey);
+}
+.about__card:hover{
+    border-color: var(--aqua);
+}
+.about__name{
+    font-size: 30px;
+    font-weight: 500;
+}
+.info{
+    background-color: var(--grey);
+}
+.info__greed{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 25px;
+}
+.info__titile{
+    background-color: var(--blue);
+    width: 30%;
+    padding: 15px 0;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+.info__titile p{
+    text-align: center;
+    color: lemonchiffon;
+}
+.info__card_rise{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.info__card_contain {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid var(--aqua);
+    border-radius: 10%;
+    padding-top: 10px;
+}
+.info__img{
+    height: 150px;
+    width: 150px;
+    background-color: var(--blue);
+    border-radius: 20px;
+}
+.info__card_contain p{
+    color: lemonchiffon;
+    text-align: left;
+    margin: 20px 0;
+}
+.info__button{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border-top: 2px solid var(--aqua);
+}
+.button_left{
+    height: 15px;
+    width: 50px;
+    background-color: var(--blue);
+    border-radius: 20px;
+    margin: 5px 15px;
+}
+.button1{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--blue);
+}
+.button_right{
+    display: flex;
+    column-gap: 5px;
+    justify-content: center;
+    margin: 5px 15px;
+}
+.info__card{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+
 }
