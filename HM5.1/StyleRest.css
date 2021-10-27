@@ -50,8 +50,8 @@ table {
     padding: 0 20px;
 }
 .header {
-    height: 100vh;
     background: url(image/bg.png) no-repeat center/cover;
+    height: 800px;
 }
 .header__top{
     padding-top: 50px;
@@ -126,6 +126,9 @@ table {
     align-items: center;
     margin-top: 12px;
 }
+.dish_card span{
+    color: #2C2C2C
+}
 .header__title {
     font-weight: normal;
     max-width: 500px;
@@ -163,4 +166,101 @@ table {
     height: 3px;
     background: #FF7400;
     border-radius: 50px;
+}
+.header_dish{
+    display: flex;
+    column-gap: 31px;
+    margin-left: 146px;
+    position: relative;
+}
+.dish_card {
+    box-sizing: border-box;
+    width: 349px;
+    height: 328px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px 20px;
+    border: 2px solid #FF7400;
+    position: relative;
+    bottom: 107px;
+    background-color: #ffffff;
+    row-gap: 20px;
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+}
+
+.dish_card h3{
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+}
+.dish_card p{
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    color: #656363
+}
+.main_history{
+    margin-left: 147px;
+}
+.history_text{
+    display: flex;
+    flex-direction: column;
+    width: 444px;
+    align-items: center;
+
+}
+.history_text h4{
+    font-size: 54px;
+    line-height: 62px;
+    padding-bottom: 21px;
+}
+.history_text p{
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.history_info{
+    display: flex;
+    margin-top: 15px;
+    column-gap: 50px;
+}
+.history_info_card h4{
+    font-size: 40px;
+    line-height: 54px;
+    text-align: center;
+    color: #BC9060;
+}
+.history_info_card p{
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+}
+
+.history{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main_history{
+    display: flex;
+    column-gap: 125px;
+}
+.image_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo2{
+    position: relative;
+    left: 85px;
+
+}
+.photo3{
+    position: relative;
+    right: 170px;
+    top: 130px;
+
 }
