@@ -264,3 +264,9 @@ table {
     top: 130px;
 
 }
+.dish_card span{
+    color: #FF7400;
+}
+.history_text span{
+    color: #FF7400;
+}
