@@ -30,5 +30,60 @@
     .header__title p:after{
         display: none;
     }
+    .header_dish{
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+        margin-left: 0;
+        width: 290px;
+    }
+    .dish_card{
+        box-sizing: border-box;
+        width: 290px;
+        height: 276px;
+        padding: 15px;
+        row-gap: 15px;
+
+    }
+    .dish_card p{
+        font-size: 22px;
+        line-height: 25px;
+    }
+    .dish_card h3{
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .history{
+        width: 320px;
+        box-sizing: border-box;
+    }
+
+    .history_info {
+        display: flex;
+        flex-direction: column;
+
+    }
+    .main_history{
+        margin-left: 15px;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+
+    }
+    .history_text{
+        width: 290px;
+    }
+    .history_text h4{
+        text-align: center;
+    }
+    .history_text p{
+        text-align: center;
+    }
+    .image_box {
+        width: 290px;
+    }
+
+
 
 }
