@@ -253,17 +253,7 @@ table {
     justify-content: center;
     align-items: center;
 }
-.photo2{
-    position: relative;
-    left: 85px;
 
-}
-.photo3{
-    position: relative;
-    right: 170px;
-    top: 130px;
-
-}
 .dish_card span{
     color: #FF7400;
 }

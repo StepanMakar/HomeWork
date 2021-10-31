@@ -80,10 +80,9 @@
     .history_text p{
         text-align: center;
     }
-    .image_box {
-        width: 290px;
+
+    .image_box img{
+        width: 80%;
     }
-
-
 
 }
