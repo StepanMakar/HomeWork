@@ -552,8 +552,138 @@ table {
     display: flex;
     flex-direction: column;
     row-gap: 20px;
+    margin-top: 35px;
+    width: fit-content;
+}
+.show_more_btn button{
+    background: #FFFFFF;
+    border: 2px solid #005BB9;
+    border-radius: 6px;
+    color: #005BB9;
+    padding: 15px 40px;
+
+}
+.show_more_btn{
+    align-self: center;
+}
+ .news_title h6{
+     font-weight: 500;
+     font-size: 24px;
+     line-height: 28px;
+     border-bottom: 9px solid #F5F5F5;
+     padding-bottom: 14px;
+
+ }
+ .title_new{
+     margin: 18px 0;
+ }
+ .fresh_new{
+     display: flex;
+     width: 1200px;
+     column-gap: 60px;
+ }
+.day_new{
+    background: #0C1A2A;
+    border-radius: 4px;
+    width: fit-content;
+    color: #FFFFFF;
+    padding: 2px 19px;
+}
+.mounth_new{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+.page_end{
+    background: #0C1A2A;
+    padding: 35px 0;
+    margin-top: 120px;
+    display: flex;
+    column-gap: 130px;
+}
+.fresh_new .mounth_new::before{
+    content: "";
+    display: block;
+    height: 20px;
+    width: 1px;
+    background: #0C1A2A;
+    margin-left: 50px;
 }
 
-
-
-
+.end_text_stile h6{
+    font-size: 18px;
+    line-height: 21px;
+    color: #868DAC;
+}
+.end_info_text li{
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding: 7px 0;
+}
+.left_end{
+    display: flex;
+    column-gap: 90px;
+}
+.style_text{
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.end_pay_text{
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px;
+}
+.end_info_pay{
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.end_info{
+    display: flex;
+    flex-direction: column;
+    row-gap: 45px;
+}
+.contact_back{
+    display: flex;
+    column-gap: 100px;
+}
+.text_form p{
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.text_form{
+    display: flex;
+    column-gap: 23px;
+}
+.enter_mail{
+    width: 290px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ADBDD1;
+    border: 1px solid #203246;
+    border-radius: 6px 0px 0px 6px;
+    padding: 10px 0 10px 17px;
+}
+.subscribe_field button{
+    background: #005BB9;
+    border-radius: 0px 6px 6px 0px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 40px;
+}
+.subscribe_field{
+    display: flex;
+}
+.social_icon{
+    display: flex;
+   column-gap: 55px;
+    justify-content: end;
+}
+.right_end{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
