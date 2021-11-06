@@ -1,0 +1,136 @@
+@media screen and (max-width: 320px) {
+
+.wrapper{
+    margin-left: 15px;
+}
+.head_menu{
+    display: none;
+}
+.head_info img{
+display: none;
+}
+.inf1{
+    display: none;
+}
+.work_time{
+    display: none;
+}
+.location{
+    display: none;
+}
+.logo{
+    margin-right: 30px;
+}
+.logo img{
+    width: 36px;
+    height: 40px;
+}
+.about_info{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    row-gap: 14px;
+}
+.logo_text h1{
+   font-size: 7px;
+}
+    .logo_text p{
+        font-size: 6px;
+    }
+.contact_w{
+    margin-right: 15px;
+    width: 132px;
+    height: 18px;
+}
+    .contact_w img{
+        width: 13px;
+        height: 13px;
+    }
+    .contact_w p{
+        font-size: 10px;
+    }
+    .phone_number{
+        margin-right: 15px;
+    }
+    .phone_number h4{
+        font-size: 16px;
+    }
+    .nav_btn p{
+        display: none;
+    }
+    .nav_btn{
+        width: 34px;
+        height: 34px;
+    }
+    .lines_item{
+        height: 2px;
+        width: 20px;
+    }
+    .search_fild{
+        width: 203px;
+        height: 34px;
+
+    }
+    .search_btn{
+        width: 34px;
+        height: 32px;
+    }
+ .left_sale{
+     width: 290px;
+     height: 195px;
+ }
+    .car_tires img{
+        width: 130px;
+        height: 110px;
+    }
+    .title_text h5{
+        font-size: 15px;
+        line-height: 19px;
+    }
+    .title_text p{
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .price_text h5{
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .main_search_field{
+        margin-top: 15px;
+    }
+    .price_text p{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .buy_btn button{
+        width: 124px;
+        height: 34px;
+    }
+    .buy_btn img{
+        width: 13px;
+        height: 13px;
+    }
+    .buy_btn p{
+        font-size: 15px;
+    }
+    .left_sale{
+        column-gap: 1px;
+    }
+    .sales_text{
+        row-gap: 15px;
+    }
+    .price_text{
+        flex-direction: column-reverse;
+        align-items: start;
+    }
+    .main_sale_text{
+        margin-left: 32px;
+    }
+    .sales{
+        flex-direction: column;
+    }
+
+
+
+}
