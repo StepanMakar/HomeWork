@@ -523,13 +523,17 @@ table {
     align-items: center;
     column-gap: 20px;
 }
+.mesh{
+    height: 1px;
+    background: #E1E5F8;
+    margin: 20px 0;
+}
+
 .discount{
     background: #FFB800;
     border-radius: 2px;
     color: #FFFFFF;
-    padding: 3px 6px;
     width: fit-content;
-    position: absolute;
 }
 .Text_price_full{
     font-weight: bold;
@@ -615,11 +619,17 @@ table {
     line-height: 21px;
     color: #868DAC;
 }
+.end_catalog{
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px;
+}
 .end_info_text li{
     font-size: 14px;
     line-height: 16px;
     color: #FFFFFF;
-    padding: 7px 0;
+    margin-bottom: 14px;
+
 }
 .left_end{
     display: flex;
@@ -635,10 +645,11 @@ table {
     flex-direction: column;
     row-gap: 14px;
 }
-.end_info_pay{
+.end_info_pay p{
     font-size: 14px;
     line-height: 16px;
     color: #FFFFFF;
+    margin-bottom: 8px;
 }
 .end_info{
     display: flex;
@@ -653,6 +664,9 @@ table {
     font-size: 18px;
     line-height: 21px;
     color: #FFFFFF;
+}
+.contact_phone h6{
+    margin-bottom: 8px;
 }
 .text_form{
     display: flex;
