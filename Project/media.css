@@ -130,7 +130,84 @@ display: none;
     .sales{
         flex-direction: column;
     }
-
-
-
+    .right_item{
+        width: 250px;
+        height: 145px;
+    }
+    .sale_item img{
+        width: 58px;
+        height: 54px;
+    }
+    .sale_item_text h6{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .sale_item_textp {
+        font-size: 10px;
+        line-height: 12px;
+    }
+        .price_item h6{
+            font-size: 14px;
+            line-height: 16px;
+        }
+        .price_item p{
+            font-size: 12px;
+            line-height: 14px;
+        }
+        .price_item button{
+            width: 32px;
+            height: 32px;
+        }
+        .price_item img{
+            width: 11px;
+            height: 11px;
+        }
+        .right_item span{
+            margin-bottom: 5px;
+            font-size: 12px;
+            line-height: 14px;
+        }
+        .slide_item{
+            width: 250px;
+            height: 126px;
+        }
+        .slide_item_text h6{
+            font-size: 16px;
+            line-height: 19px;
+        }
+        .slide_item_text p{
+            font-size: 10px;
+            line-height: 14px;
+        }
+        .slide_item img{
+            width: 74px;
+            height: 97px;
+            margin-left: 26px;
+            margin-right: 13px;
+        }
+        .slide_item_text{
+            margin-left: 15px;
+            width: 120px;
+        }
+    .slide_item_text button{
+        width: 74px;
+        height: 24px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .product{
+        margin-left: 15px;
+    }
+    .navigate{
+        margin-left: 15px;
+    }
+    .nav_btn1{
+        width: 164px;
+        height: 36px;
+        font-size: 14px;
+        line-height: 16px;
+    }
 }
+
+
+
